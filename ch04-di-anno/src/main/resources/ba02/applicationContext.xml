@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+    <!--声明组件扫描器,找java对象 base-package：指定注解在你项目中的包名
+        component-scan工作方式：spring会扫描遍历base-package指定的包名
+
+        加入了component-scan标签，配置文件的变化：
+            1.加入一个新的约束文件：spring-context.xsd
+            2.给这个新的约束文件起个命名空间的名称
+    -->
+    <context:component-scan base-package="com.dlkyy.ba02"/>
+
+    <!--指定多个包的三种方式-->
+    <!--第一种方式：多次使用组件扫描器-->
+    <!--第二种方式：使用分隔符（;或,）分割多个包名-->
+    <!--第三种方式：指定父包-->
+</beans>

@@ -1,4 +1,4 @@
-package com.dlkyy.ba01;
+package com.dlkyy.ba02;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -25,7 +25,9 @@ import org.springframework.stereotype.Component;
  */
 @Component(value = "myStudent")
 public class Student {
+  @Value("dlkyy")
   private String name;
+  @Value("26")
   private Integer age;
 
   public Student() {
