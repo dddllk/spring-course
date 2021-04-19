@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--声明Student对象
+        简单类型：spring中规定java的基本数据类型和String都是简单类型。
+        di给属性赋值
+        1.set注入（赋值）：spring调用类的set方法，你可以在set方法中完成属性的赋值
+            1）简单类型的set注入：（eg1）
+            2）构造方法注入：
+                spring调用类有参数构造方法，在创建对象的同事，在构造方法中给属性赋值（constructor-arg）
+                <constructor-arg> 标签：一个<constructor-arg>表示构造方法的一个参数
+                有多少个参数这个标签就出现多少次
+                这个标签参数的属性：
+                    name：表示构造方法的形参名
+                    index：表示构造方法的参数位置，参数从左往右位置是0,1,2的顺序
+                    ref：构造方法的形参是引用类型的
+    -->
+    <!--使用name属性实现构造注入-->
+    <bean id="student" class="com.dlkyy.ba03.Student">
+        <constructor-arg name="name" value="dlk"/>
+        <constructor-arg name="age" value="16"/>
+        <constructor-arg name="school" ref="myXueXiao"/>
+    </bean>
+    <bean id="myXueXiao" class="com.dlkyy.ba03.School">
+        <property name="name" value="bjpowernode"/>
+        <property name="address" value="cq"/>
+    </bean>
+</beans>
