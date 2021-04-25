@@ -10,7 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class AppTest {
     @Test
-    public void test(){
+    public void test01(){
         String config = "ba01/applicationContext.xml";
         ApplicationContext ac = new ClassPathXmlApplicationContext(config);
         // 从容器中获取目标对象
@@ -20,5 +20,4 @@ public class AppTest {
         proxy.doSome("jq", 16);
 
     }
-
 }
