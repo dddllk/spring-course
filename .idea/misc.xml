@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/ch03-ioc-homework/pom.xml" />
         <option value="$PROJECT_DIR$/ch04-di-anno/pom.xml" />
         <option value="$PROJECT_DIR$/ch05-aop-leadin/pom.xml" />
+        <option value="$PROJECT_DIR$/ch06-aop-aspect/pom.xml" />
       </list>
     </option>
   </component>
