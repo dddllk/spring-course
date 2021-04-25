@@ -11,7 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class AppTest {
     @Test
     public void test(){
-        String config = "applicationContext.xml";
+        String config = "ba01/applicationContext.xml";
         ApplicationContext ac = new ClassPathXmlApplicationContext(config);
         // 从容器中获取目标对象
         SomeService proxy = (SomeService) ac.getBean("someService");
