@@ -18,6 +18,7 @@ public class AppTest03 {
     SomeService proxy = (SomeService) ac.getBean("someService");
 
     String str = proxy.doFirst("dlkyy", 26);
+    System.out.println(str);
 
   }
 }
