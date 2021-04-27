@@ -12,6 +12,7 @@
         <module name="ch02-di-xml" />
         <module name="ch01-hello-spring" />
         <module name="ch01-hellp-spring" />
+        <module name="ch09-spring-trans-anno" />
         <module name="ch06-aop-aspect" />
         <module name="ch05-aop-leadin" />
         <module name="ch03-ioc-homework" />
@@ -27,6 +28,7 @@
       <module name="ch06-aop-aspect" target="1.8" />
       <module name="ch07-spring-mybatis" target="1.8" />
       <module name="ch08-spring-trans" target="1.8" />
+      <module name="ch09-spring-trans-anno" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
