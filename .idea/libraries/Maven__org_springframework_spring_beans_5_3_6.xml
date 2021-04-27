@@ -1,13 +1,13 @@
 <component name="libraryTable">
-  <library name="Maven: com.google.protobuf:protobuf-java:3.11.4">
+  <library name="Maven: mysql:mysql-connector-java:8.0.23">
     <CLASSES>
-      <root url="jar://D:/Program Files/ApachSoft/mvn_repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar!/" />
+      <root url="jar://D:/Program Files/ApachSoft/mvn_repository/mysql/mysql-connector-java/8.0.23/mysql-connector-java-8.0.23.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://D:/Program Files/ApachSoft/mvn_repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4-javadoc.jar!/" />
+      <root url="jar://D:/Program Files/ApachSoft/mvn_repository/mysql/mysql-connector-java/8.0.23/mysql-connector-java-8.0.23-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://D:/Program Files/ApachSoft/mvn_repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4-sources.jar!/" />
+      <root url="jar://D:/Program Files/ApachSoft/mvn_repository/mysql/mysql-connector-java/8.0.23/mysql-connector-java-8.0.23-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
